@@ -38,4 +38,36 @@ In goodbye flow,
 
 ![image](https://user-images.githubusercontent.com/70746268/120822105-b3992080-c573-11eb-8274-1313fcd13ef8.png)
 
+4)Walkthrough 6-4: Setrequest and response data
+
+![image](https://user-images.githubusercontent.com/70746268/120885180-2c948880-c605-11eb-8c36-f2459020905a.png)
+
+![image](https://user-images.githubusercontent.com/70746268/120885348-0d4a2b00-c606-11eb-99bf-70b27f47c8c4.png)
+
+5)Walkthrough6-5: Getand seteventdatausing DataWeave expressions
+
+After using 'Goodbye jayyyy....' in set payload of goodbye flow ,
+
+![image](https://user-images.githubusercontent.com/70746268/120885549-4767fc80-c607-11eb-940a-7b5b8a411a53.png)
+
+After using upper('Goodbye jayyyy....') in set payload of goodbye flow ,
+
+![image](https://user-images.githubusercontent.com/70746268/120885686-c826f880-c607-11eb-9c23-4c7675b10968.png)
+
+After using  #[payload] in message field in logger in hello flow ,
+
+![image](https://user-images.githubusercontent.com/70746268/120885755-2522ae80-c608-11eb-89aa-28610d1f65d1.png)
+
+After using  Message: #[payload] in message field in logger in hello flow ,
+
+![image](https://user-images.githubusercontent.com/70746268/120885869-c3167900-c608-11eb-91dd-2fd3e2bc4bbf.png)
+
+After using 'Message:' ++ payload in message field in logger in hello flow ,
+
+![image](https://user-images.githubusercontent.com/70746268/120885975-4506a200-c609-11eb-8360-06dac18c2eb5.png)
+
+
+
+
+
 
