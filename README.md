@@ -66,6 +66,31 @@ After using 'Message:' ++ payload in message field in logger in hello flow ,
 
 ![image](https://user-images.githubusercontent.com/70746268/120885975-4506a200-c609-11eb-8360-06dac18c2eb5.png)
 
+After using #[attributes.queryParams.fullName] in message field in logger in goodbye flow ,
+
+![image](https://user-images.githubusercontent.com/70746268/120891746-d2f18580-c627-11eb-8d3c-9461910f701e.png)
+
+After using #[upper('Goodbye') ++ ' '++ attributes.queryParams.fullName as String] in message field in logger in goodbye flow ,
+
+![image](https://user-images.githubusercontent.com/70746268/120891809-3bd8fd80-c628-11eb-9942-9cf1ce6a1e53.png)
+
+After using attributes.queryParams.fname in GET /goodbye request in hello flow ,
+
+![image](https://user-images.githubusercontent.com/70746268/120891939-0b459380-c629-11eb-8066-0d4401a7ac15.png)
+
+Removing paramenter in query,
+
+![image](https://user-images.githubusercontent.com/70746268/120891994-6f685780-c629-11eb-84bb-2002cc153c12.png)
+
+![image](https://user-images.githubusercontent.com/70746268/120892302-3cbf5e80-c62b-11eb-9001-34ea8f801685.png)
+
+6)Walkthrough6-6: Set and get variables
+
+![image](https://user-images.githubusercontent.com/70746268/120893364-8e1e1c80-c630-11eb-8c3e-94e4e72c2ee1.png)
+
+
+
+
 
 
 
